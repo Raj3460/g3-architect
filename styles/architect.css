@@ -10,3 +10,95 @@
   font-weight: 400;
   font-style: normal;
 }
+/* shard....link */
+.display-flex{
+       display:flex;
+}
+.dark2{
+     color:  #424242 ;
+}
+.dark3{
+ color:rgba(114, 114, 114, 1) ;
+       color: #727272;
+}
+.btn-primary{
+       background-color: #FF900E;
+       
+       padding: 20px 25px;
+       border: none;
+       font-size: 1.25rem;
+       font-weight: 600;
+       color: white;
+       border-radius: 8px;
+       
+
+       
+
+}
+.navbar,  .banner{
+       max-width: 1440px;
+       margin: 0 auto;
+}
+.description{
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 26px;
+}
+
+/* header styles */
+.bg-color{
+ background-color:rgba(255, 144, 14, 0.1);
+/* width: 1920px; */
+/* padding: 0px 240px; */
+
+}
+
+/* navbar rilated styles */
+.nav-titel{
+       font-size: 3em;
+       font-weight: bold;
+}
+.nav-item{
+       list-style: none;
+       margin-right: 30px;
+}
+.nav-link{
+       text-decoration: none;
+       font-weight: 500;
+       font-size: 18px;
+}
+.navbar{
+       justify-content: space-between;
+       /* margin: 0px 240px; */
+       align-items: center;
+}
+
+/* .............nav--finish........ */
+.banner-container{
+       max-width: 850px;
+       margin: 0 auto;
+       text-align: center;
+       margin-bottom: 50px;
+
+
+}
+.banner-title{
+       font-size: 4rem;
+       font-weight: 700;
+       
+}
+.banner-img{
+       width: 100%;
+}
+
+
+/* @media screen  reponsive media query{ */
+
+       
+  
+  
+@media screen and (max-width: 576px) {
+       .navbar,  .nav-links{
+              flex-direction: column;
+       }
+}
